@@ -21,4 +21,5 @@
                              :or {perplexity 20.0 iters 1000}}]
   (let [tsne (FastTSne.)
         mat-shape (m/shape matrix)]
-    (.tsne tsne (core-mat-to-double-doubles matrix) out-dims mat-shape perplexity iters)))
+    (.tsne tsne (core-mat-to-double-doubles matrix) out-dims (second mat-shape)
+           perplexity iters)))
