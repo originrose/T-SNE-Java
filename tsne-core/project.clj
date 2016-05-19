@@ -13,9 +13,7 @@ Tilburg University. All rights reserved."
   :java-source-paths ["src/main"]
   :source-paths ["src/clj"]
 
-  :profiles {:dev {:dependencies [[incanter/incanter-core "1.5.7"]
-                                  [incanter/incanter-charts "1.5.7"]]}
-             :test {:dependencies [[junit/junit "4.12"]]
+  :profiles {:test {:dependencies [[junit/junit "4.12"]]
                     :java-source-paths ["src/test"]
                     :plugins [[lein-junit "1.1.8"]]
                     :junit ["src/test"]}})
