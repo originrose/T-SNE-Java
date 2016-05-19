@@ -1,8 +1,8 @@
-(defproject thinktopic/tsne-core "0.1.0-SNAPSHOT"
+(defproject thinktopic/tsne-core "0.1.0"
   :description "Clojure wrappers for a Java port of t-SNE is is Copyright (c) Leif Jonsson 2014.
 The original Python implementation is Copyright (c) Laurens van der Maaten on 20-12-08,
 Tilburg University. All rights reserved."
-  :url "http://thinktopic.com"
+  :url "https://github.com/thinktopic/T-SNE-Java"
   :license {:name "Custom" }
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [gov.nist.math/jama "1.0.2"]
